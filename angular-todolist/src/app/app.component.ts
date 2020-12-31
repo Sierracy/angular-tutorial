@@ -11,11 +11,4 @@ export class AppComponent {
   //define as a string in typescript
   title:string = 'Todo List';
 
-  constructor(){
-    this.changeTitle('Doto List')
-  }
-
-  changeTitle(title:string):void {
-    this.title = title;
-  }
 }
